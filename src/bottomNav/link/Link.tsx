@@ -1,4 +1,4 @@
-import { match, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Link.scss';
 
 interface LinkProps {
