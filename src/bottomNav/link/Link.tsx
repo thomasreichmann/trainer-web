@@ -8,7 +8,7 @@ interface LinkProps {
 
 const Link = (props: LinkProps) => {
 	return (
-		<NavLink to={props.path} className="link ripple" activeClassName="active" exact>
+		<NavLink to={props.path} className="link" activeClassName="active" exact>
 			<span className="link-wrapper">{props.children}</span>
 		</NavLink>
 	);

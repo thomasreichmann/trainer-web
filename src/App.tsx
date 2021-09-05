@@ -16,6 +16,7 @@ function App() {
 						<Home />
 					</Route>
 				</Switch>
+
 				<BottomNav />
 			</div>
 		</Router>
