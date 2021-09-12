@@ -1,0 +1,10 @@
+.App {
+	// Prevents child margin-top from changing this element's height and exposing background
+	// https://css-tricks.com/forums/topic/why-is-margin-top-causing-the-background-of-a-parent-div-to-move-down/
+	overflow: hidden;
+
+	min-height: 100vh;
+	text-align: center;
+	background-color: #121212;
+	color: #bb86fc;
+}
